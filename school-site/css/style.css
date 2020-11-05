@@ -182,6 +182,13 @@ nav {
     top-margin: 0.25rem;
     text-decoration: none;
     display: inline-block;
+    width: 100%;
+    height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    bottom-margin: 1.5rem;
+    border-style: solid;
+    border-color: #33658A;
 }
 
 nav a {
