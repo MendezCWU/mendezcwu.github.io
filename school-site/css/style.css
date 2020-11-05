@@ -80,8 +80,8 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: "
-    src: url(sansation_light.woff);
+    font-family: "josefinslab";
+    src: url(school-site/fonts/josefinslab-regular.ttf);
 }
 @font-face {}
 
