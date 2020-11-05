@@ -137,7 +137,10 @@ a:hover {}
 
 ul {}
 
-ol {}
+ol{
+margin: 1rem, 0;
+list-style-type: lower-alpha;
+}
 
 .long-list a:hover {}
 
