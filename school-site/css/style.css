@@ -139,6 +139,7 @@ figcaption {
 
 a {
     foreground-color: #4D3722;
+    text-decoration: none;
 }
 
 a:link,
@@ -178,9 +179,9 @@ ol {
 
 
 nav {
-    left-padding:0;
-    top-margin:0.25;
-    text-decoration: none ;
+    left-padding: 0;
+    top-margin: 0.25;
+    text-decoration: none;
     display: inline-block;
 }
 
