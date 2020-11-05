@@ -80,46 +80,59 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-font-family:Josefinslab;
-src: url(..mendezcwu.github.io/fonts/josefinslab-regular.ttf) format('truetype');
-font-weight:normal;
-font-style:normal;
+    font-family: Josefinslab;
+    src: url(..mendezcwu.github.io/fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
 @font-face {
-font-family: Montserrat;
-src: url(..mendezcwu.github.io/fonts/montserrat-regular.ttf) format('truetype');
-font-weight:normal;
-font-style:normal;
+    font-family: Montserrat;
+    src: url(..mendezcwu.github.io/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
 
 
 /* Typography Styles */
 
 html {
-font-family: Montserrat,sans-serif;
+    font-family: Montserrat,sans-serif;
 }
 
 h1 {
-letter-spacing: 0.125rem;
-font-family: Josefinslab, sans-serif;
-font-size:3.75rem;
-margin:1.125rem;
-text-align: center;
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, serif;
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align: center;
 }
 
 h2{
-letter-spacing: 0.125rem;
-font-family: Josefinslab, sans-serif;
-font-size:1.5rem;
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, serif;
+    font-size:1.5rem;
 }
 
-h2 + p {}
+h2 + p {
+    text-indent:1.5rem;
+}
 
-p {}
+p {
+    font-size:0.75rem;
+    letter-spacing:0.03125rem;
+    word-spacing:0.125
+}
 
-li {}
+li {
+    font-size:0.75rem;
+    letter-spacing:0.03125rem;
+    word-spacing:0.125
+}
 
-figcaption {}
+figcaption {
+    font-size:0.75rem;
+    bottom-margin:2rem;
+}
 
 
 /* Link Styling */
@@ -138,8 +151,8 @@ a:hover {}
 ul {}
 
 ol{
-margin: 1rem, 0;
-list-style-type: lower-alpha;
+    margin: 1rem, 0;
+    list-style-type: lower-alpha;
 }
 
 .long-list a:hover {}
