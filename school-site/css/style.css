@@ -138,17 +138,17 @@ figcaption {
 /* Link Styling */
 
 a {
-    foreground-color: #4D3722;
+    color:#33658A;
 }
 
 a:link,
 a:visited {
-    foreground-color: #4D3722;
+    color:#33658A;
 }
 
 a:focus,
 a:hover {
-    foreground-color: #4D3722;
+    text-decoration: none;
 }
 
 
@@ -171,7 +171,7 @@ ol {
 }
 
 .long-list a:hover {
-    text-transform: upper-alpha;
+    text-transform: uppercase;
 }
 
 /* Navigation Menu */
@@ -180,6 +180,10 @@ ol {
 nav {
     left-padding: 0rem;
     top-margin: 0.25rem;
+
+}
+
+nav a {
     text-decoration: none;
     display: inline-block;
     width: 100%;
@@ -191,19 +195,23 @@ nav {
     border-color: #33658A;
 }
 
-nav a {
-    text-decoration: none;
+nav a:focus,
+nav a:hover {
+    color:#FFF;
+    background-color: #33658A;
 }
 
-nav a:focus,
-nav a:hover {}
-
-nav a:active {}
+nav a:active {
+    color:#FFF;
+    background-color: #000;
+}
 
 /* Footer Styles */
 
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
