@@ -139,7 +139,6 @@ figcaption {
 
 a {
     foreground-color: #4D3722;
-    text-decoration: none;
 }
 
 a:link,
@@ -185,12 +184,27 @@ nav {
     display: inline-block;
 }
 
-nav a {}
+nav a {
+    left-padding: 0rem;
+    top-margin: 0.25rem;
+    text-decoration: none;
+    display: inline-block;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    left-padding: 0rem;
+    top-margin: 0.25rem;
+    text-decoration: none;
+    display: inline-block;
+}
 
-nav a:active {}
+nav a:active {
+    left-padding: 0rem;
+    top-margin: 0.25rem;
+    text-decoration: none;
+    display: inline-block;
+}
 
 /* Footer Styles */
 
