@@ -79,7 +79,10 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {}
+@font-face {
+    font-family: "
+    src: url(sansation_light.woff);
+}
 @font-face {}
 
 
