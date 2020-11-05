@@ -137,30 +137,50 @@ figcaption {
 
 /* Link Styling */
 
-a {}
+a {
+    foreground-color: #4D3722;
+}
 
 a:link,
-a:visited {}
+a:visited {
+    foreground-color: #4D3722;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    foreground-color: #4D3722;
+}
 
 
 /* List Styling */
 
-ul {}
+ul {
+    top-margin:1rem;
+    bottom-margin:1rem;
+    left-margin:0;
+    right-margin:0;
+    list-style-type: square;
+}
 
-ol{
-    margin: 1rem, 0;
+ol {
+    top-margin:1rem;
+    bottom-margin:1rem;
+    left-margin:0;
+    right-margin:0;
     list-style-type: lower-alpha;
 }
 
-.long-list a:hover {}
+.long-list a:hover {
+    list-style-type: upper-alpha;
+}
 
 /* Navigation Menu */
 
 
-nav {}
+nav {
+    left-padding:0;
+    top-margin:0.25;
+}
 
 nav a {}
 
