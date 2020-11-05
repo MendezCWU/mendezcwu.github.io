@@ -191,27 +191,12 @@ nav {
     border-color: #33658A;
 }
 
-nav a {
-    left-padding: 0rem;
-    top-margin: 0.25rem;
-    text-decoration: none;
-    display: inline-block;
-}
+nav a {}
 
 nav a:focus,
-nav a:hover {
-    left-padding: 0rem;
-    top-margin: 0.25rem;
-    text-decoration: none;
-    display: inline-block;
-}
+nav a:hover {}
 
-nav a:active {
-    left-padding: 0rem;
-    top-margin: 0.25rem;
-    text-decoration: none;
-    display: inline-block;
-}
+nav a:active {}
 
 /* Footer Styles */
 
