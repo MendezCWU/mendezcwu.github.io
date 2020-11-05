@@ -120,13 +120,13 @@ h2 + p {
 p {
     font-size:0.75rem;
     letter-spacing:0.03125rem;
-    word-spacing:0.125
+    word-spacing:0.125;
 }
 
 li {
     font-size:0.75rem;
     letter-spacing:0.03125rem;
-    word-spacing:0.125
+    word-spacing:0.125;
 }
 
 figcaption {
@@ -157,16 +157,16 @@ a:hover {
 ul {
     top-margin:1rem;
     bottom-margin:1rem;
-    left-margin:0;
-    right-margin:0;
+    left-margin: 0rem;
+    right-margin: 0rem;
     list-style-type: square;
 }
 
 ol {
     top-margin:1rem;
     bottom-margin:1rem;
-    left-margin:0;
-    right-margin:0;
+    left-margin: 0rem;
+    right-margin: 0rem;
     list-style-type: lower-alpha;
 }
 
