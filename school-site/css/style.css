@@ -191,12 +191,18 @@ nav {
     border-color: #33658A;
 }
 
-nav a {}
+nav a {
+    text-decoration: none;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    text-decoration: none;
+}
 
-nav a:active {}
+nav a:active {
+    text-decoration: none;
+}
 
 /* Footer Styles */
 
