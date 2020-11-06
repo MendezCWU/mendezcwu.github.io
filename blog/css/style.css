@@ -78,6 +78,10 @@ main {
     min-width:45rem;
     
 }
+        
+h1 {
+    text-align:center;
+}
 
 section {
     float: left;
