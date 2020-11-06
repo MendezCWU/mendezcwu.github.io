@@ -48,9 +48,18 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-* {
-    box-sizing: border-box;
+div.container {
+        width: 100%;
+        border: 0.03125rem;
 }
+
+div.box {
+        box-sizing: border-box;
+        width: 70%;
+        border: 0.0625rem;
+        border-color: #000000;
+        float: left;
+
 
 html {
     font-size:16px;
