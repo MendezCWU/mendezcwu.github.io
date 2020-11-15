@@ -49,17 +49,67 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 @font-face {
-    font-family: Josefinslab;
-    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
+        font-family: lato-regular;
+        src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: montserrat-regular;
+        src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: opensans-regular;
+        src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: roboto-regular;
+        src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: josefinslab-regular;
+        src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: robotoslab-regular;
+        src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: rozhaone-regular;
+        src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+        font-family: ultra-regular;
+        src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+        font-weight:normal;
+        font-style:normal;
 }
 
 nav{
-    margin: 1%;
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
+        margin: 1%;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        font-family: lato-regular, sans-serif;
 }
 
 a{
