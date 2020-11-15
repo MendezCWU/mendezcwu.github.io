@@ -1,0 +1,156 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family: Josefinslab;
+    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+nav{
+    margin: 1%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-section{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.article-image{
+    float: left;
+}
+
+.dots{
+    height: 5vh;
+    width: 5%;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+article{
+    border-right: 1px solid gray;
+    width: 130%;
+    margin-right: 2%;
+}
+
+.aside{
+    width: 60%;
+    margin-right: 20%;
+}
+.aside img{
+    height: 12.5vh;
+    width: 20%;
+}
+
+.aside p{
+    font-size: 10%;
+    height: 10%;
+    width: 70%;
+}
+
+.main{
+    margin-right: 10%;
+}
+
+main h2{
+    margin-left: 10%;
+    margin-bottom: -0.5%;
+}
+
+.subsection img{
+    width: 70%;
+    height: 25vh;
+}
+
+.subsection figure{
+    margin-right: -5%;
+}
+
+.subsection{
+    display: flex;
+    
+}
+
+h1{
+    margin: 0% 0% 5% 30%;
+    text-transform: inherit;
+    text-shadow: 1px 1px black;
+    transform: rotate(-5deg);
+}
+
+.highlight{
+    border: 1px solid black;
+    padding: 0% 1% 0% 0.7%;
+    border-radius: 8%;
+    background-color: black;
+    color: white;
+}
+
+.subscribe{
+    font-size: 150%;
+    color: white;
+    background-color: black;
+    padding: 0% 0.5% 0% 0.5%;
+    border: 1px solid black;
+    border-radius: 8%;
+    height: 5vh;
+}
