@@ -1,0 +1,220 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family: lato-regular;
+    src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/sans-serif/opensans-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: josefinslab-regular;
+    src: url(../fonts/serif/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: robotoslab-regular;
+    src: url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: rozhaone-regular;
+    src: url(../fonts/serif/rozhaone-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: ultra-regular;
+    src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+nav {
+    margin: 1%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-family: lato-regular, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.article-image {
+    float: left;
+    margin-left: 2%;
+}
+
+.dot {
+    height: 0.3125rem;
+    width: 0.3125rem;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.125rem;
+  }
+
+.line {
+    text-decoration: line-through;
+}
+
+article {
+    border-right: 0.0625rem solid gray;
+    width: 60%;
+    margin-right: 2%;
+}
+
+.aside {
+    width: 30%;
+    font-family: opensans-regular, sans-serif;
+    margin-right: -34rem;
+}
+
+.aside img {
+    height: 12.5vh;
+    width: 21%;
+}
+
+.body {
+    border-right: 0.0625rem solid gray;
+    border-left: 0.0625rem solid gray;
+    border-top: 0.0625rem solid gray;
+    border-bottom: 0.0625rem solid gray;
+    padding-right: .5;
+}
+
+.main {
+    margin-right: 5rem;
+    font-family: opensans-regular, sans-serif;
+    width: 100%;
+}
+
+main h2 {
+    margin-left: 2%;
+    margin-bottom: -0.5%;
+    font-family: opensans-regular, sans-serif;
+}
+
+.subsection img {
+    width: 50%;
+    height: 90%;
+    margin-right: -5rem;
+}
+
+.subsection figure {
+    margin-right: -2%;
+}
+
+.subsection {
+    display: flex;
+    margin-right: 5rem;
+}
+
+h1 {
+    margin: 0% 0% 5% 30%;
+    text-transform: inherit;
+    text-shadow: 0.0625rem 0.0625rem black;
+    transform: rotate(-5deg);
+    font-family: lato-regular, sans-serif;
+}
+
+.highlight {
+    border: 0.0625rem solid black;
+    padding: 0% 1% 0% 0.7%;
+    border-radius: 8%;
+    background-color: black;
+    color: white;
+}
+
+.subscribe {
+    font-size: 150%;
+    color: white;
+    background-color: black;
+    padding: 0% 0.5% 0% 0.5%;
+    border: 0.0625rem solid black;
+    border-radius: 8%;
+    height: 5vh;
+}
