@@ -128,8 +128,8 @@ a{
 }
 
 .dots{
-    height: 5vh;
-    width: 5%;
+    height: 0.0625rem;
+    width: 0.0625rem;
 }
 
 .line{
