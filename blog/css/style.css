@@ -87,7 +87,7 @@ a{
 }
 
 article{
-    border-right: 1px solid gray;
+    border-right: 0.0625rem solid gray;
     width: 130%;
     margin-right: 2%;
 }
@@ -138,7 +138,7 @@ h1{
 }
 
 .highlight{
-    border: 1px solid black;
+    border: 0.0625rem solid black;
     padding: 0% 1% 0% 0.7%;
     border-radius: 8%;
     background-color: black;
